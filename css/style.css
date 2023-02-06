@@ -1,0 +1,208 @@
+body {
+  background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+p, a, li, small, strong, h2 {
+  color: #333333;
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerBold.woff');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerRegular.woff');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerBold.woff2');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerRegular.woff2');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerLight.woff');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerLight.woff2');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerMedium.woff');
+}
+@font-face {
+  font-family: Muller;
+  src: url('/fonts/MullerMedium.woff2');
+}
+html {
+  font-family: Muller;
+}
+
+/**header------------------------------------------------------------------*/
+.header {
+}
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-container {
+  height: 180px;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header-logo {
+  margin-right: 25px;
+}
+.header-link-phone {
+  margin-right: auto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #666666;
+}
+.header-link-account {
+  font-size: 16px;
+  color: #cc9933;
+}
+.header-bottom {
+}
+.header-bottom-container {
+  height: 70px;
+  padding: 25px 20px 25px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.nav {
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.nav-item {
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+.nav-item:nth-child(6) {
+  margin-right: auto;
+}
+.nav-link {
+}
+.nav-search {
+  border-radius: 15px;
+}
+/**header------------------------------------------------------------------*/
+
+
+.main {
+}
+.section-booking {
+}
+.section-booking-list {
+}
+.heading {
+}
+.section-booking-item {
+}
+.section-booking-form {
+}
+.section-booking-search {
+}
+.section-booking-btn {
+}
+.section-booking-discription {
+}
+.section-booking-discription-color {
+}
+.section-booking-img {
+}
+.section-booking-heading {
+}
+.section-booking-price {
+}
+.section-booking-link {
+}
+.section-booking-more {
+}
+.arrow {
+}
+.cls-1 {
+}
+.section-about {
+}
+.section-about-discription {
+}
+.section-services {
+}
+.section-services-list {
+}
+.section-services-item {
+}
+.section-services-img {
+}
+.section-services-link {
+}
+.section-hotels-link-arrow {
+}
+.section-services-discription {
+}
+.section-benefits {
+}
+.section-benefits-list {
+}
+.section-benefits-item {
+}
+.section-benefits-icon {
+}
+.section-benefit-discription {
+}
+.section-hotels {
+}
+.section-hotels-list {
+}
+.section-hotels-item {
+}
+.section-hotels-img {
+}
+.section-hotels-item-proposal {
+}
+.section-hotels-price {
+}
+.section-hotels-sum {
+}
+.hotel-name {
+}
+.hotel-location {
+}
+.section-hotels-item-btn {
+}
+.section-hotels-item-last {
+}
+.section-hotels-img-last {
+}
+.section-hotels-link {
+}
