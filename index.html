@@ -70,17 +70,27 @@
 
   <main class="main">
     <section class="section-booking">
-      <div class="container">
-        <ul class="section-booking-list">
-          <h2 class="heading">
-            Быстрая бронь
-          </h2>
-          <li class="section-booking-item">
-            <input type="text" class="section-booking-form" placeholder="Город">
-            <input type="text" class="section-booking-form" placeholder="Категория номера">
-            <input type="text" class="section-booking-form" placeholder="Дата заселения">
-            <input type="text" class="section-booking-form" placeholder="Количество ночей">
-            <input type="text" class="section-booking-form" placeholder="Количество гостей">
+      <div class="container booking-container">
+        <div class="section-booking-left">
+          <ul class="section-booking-list">
+            <h2 class="heading">
+              Быстрая бронь
+            </h2>
+            <li class="section-booking-item">
+              <input type="text" class="section-booking-form" placeholder="Город">
+            </li>
+            <li class="section-booking-item">
+              <input type="text" class="section-booking-form" placeholder="Категория номера">
+            </li>
+            <li class="section-booking-item">
+              <input type="text" class="section-booking-form" placeholder="Дата заселения">
+            </li>
+            <li class="section-booking-item">
+              <input type="text" class="section-booking-form" placeholder="Количество ночей">
+            </li>
+            <li class="section-booking-item">
+              <input type="text" class="section-booking-form" placeholder="Количество гостей">
+            </li>
             <div class="section-booking-search">
               <a href="" class="section-booking-btn">
                 Найти номер
@@ -89,12 +99,13 @@
                 <span class="section-booking-discription-color">9 756</span> предложений доступно
               </small>
             </div>
-          </li>
+          </ul>
+        </div>
+        <div class="section-booking-right">
           <h2 class="heading">
             Спецпредложение
           </h2>
-          <li class="section-booking-item">
-            <img class="section-booking-img" src="/img/photo/apartment0.png" alt="Номера люкс">
+          <div class="booking-right-discription">
             <h1 class="section-booking-heading">
               Номера категории люкс
             </h1>
@@ -120,8 +131,8 @@
                 </svg>
               </small>
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
 

@@ -117,41 +117,90 @@ html {
 }
 /**header------------------------------------------------------------------*/
 
-
+/*!main------------------------------------------------------------------*/
 .main {
 }
+/*!main------------------------------------------------------------------*/
+
+/**section-booking------------------------------------------------------------------*/
 .section-booking {
+}
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .section-booking-list {
 }
 .heading {
+  font-size: 40px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 25px;
 }
 .section-booking-item {
 }
+.section-booking-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 .section-booking-form {
+  border-radius: 12px;
+  padding: 25px 20px;
 }
 .section-booking-search {
 }
 .section-booking-btn {
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: #cc9933;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-right: 30px;
 }
 .section-booking-discription {
+  color: #999999;
 }
 .section-booking-discription-color {
+  color: #cc9933;
+}
+.section-booking-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('/img/photo/apartment0.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 595px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 .section-booking-img {
 }
 .section-booking-heading {
+  font-size: 66px;
+  color: #fff;
+  width: 320px;
+  font-weight: 900;
 }
 .section-booking-price {
+  font-size: 35px;
+  color: #fff;
+  opacity: 0.5;
 }
 .section-booking-link {
 }
 .section-booking-more {
+  color: #cc9933;
+  margin-left: 40px;
 }
 .arrow {
 }
 .cls-1 {
 }
+/**section-booking------------------------------------------------------------------*/
+
 .section-about {
 }
 .section-about-discription {
