@@ -138,6 +138,7 @@ html {
   font-weight: 400;
   color: #333333;
   margin-bottom: 25px;
+  margin-top: 0;
 }
 .section-booking-item {
 }
@@ -201,24 +202,60 @@ html {
 }
 /**section-booking------------------------------------------------------------------*/
 
+/**section-about------------------------------------------------------------------*/
 .section-about {
 }
-.section-about-discription {
+.about-container {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
+.section-about-discription {
+  font-size: 16px;
+  color: #666666;
+  letter-spacing: normal;
+  line-height: 2;
+  max-width: 880px;
+}
+/**section-about------------------------------------------------------------------*/
+
+/**section-services------------------------------------------------------------------*/
 .section-services {
+  margin-bottom: -23px;
+}
+.services-sontainer {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .section-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section-services-item {
+  background-color: #fff;
+  border-radius: 12px;
+  min-height: 325px;
+  width: 570px;
+  margin-bottom: 23px;
 }
 .section-services-img {
 }
+.section-services-bottom {
+  padding: 30px 30px;
+}
 .section-services-link {
+  color: #cc9933;
+  font-size: 22px;
+  font-weight: 500;
 }
 .section-hotels-link-arrow {
 }
 .section-services-discription {
+  line-height: 2;
+  width:  400px;
 }
+/**section-services------------------------------------------------------------------*/
+
 .section-benefits {
 }
 .section-benefits-list {
