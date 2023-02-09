@@ -139,6 +139,7 @@ html {
   color: #333333;
   margin-bottom: 25px;
   margin-top: 0;
+  margin-left: 40px;
 }
 .section-booking-item {
 }
@@ -174,8 +175,9 @@ html {
   background-repeat: no-repeat;
   background-position: bottom right;
   width: 595px;
-  padding-left: 40px;
-  padding-bottom: 40px;
+}
+.booking-right-discription {
+  padding: 40px 40px;
 }
 .section-booking-img {
 }
@@ -193,10 +195,15 @@ html {
 .section-booking-link {
 }
 .section-booking-more {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
   color: #cc9933;
   margin-left: 40px;
 }
 .arrow {
+  margin-left: 5px;
 }
 .cls-1 {
 }
@@ -215,6 +222,7 @@ html {
   letter-spacing: normal;
   line-height: 2;
   max-width: 880px;
+  margin-left: 40px;
 }
 /**section-about------------------------------------------------------------------*/
 
@@ -244,6 +252,8 @@ html {
   padding: 30px 30px;
 }
 .section-services-link {
+  display: flex;
+  align-items: center;
   color: #cc9933;
   font-size: 22px;
   font-weight: 500;
@@ -256,39 +266,109 @@ html {
 }
 /**section-services------------------------------------------------------------------*/
 
+/**section-benefits------------------------------------------------------------------*/
 .section-benefits {
+  margin-bottom: -25px;
+}
+.benefits-container {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .section-benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section-benefits-item {
+  max-width: 275px;
+  min-height: 275px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 45px 45px;
+  line-height: 2;
+  font-size: 15px;
+  margin-bottom: 25px;
 }
 .section-benefits-icon {
 }
 .section-benefit-discription {
+  margin: 0;
 }
+/**section-benefits------------------------------------------------------------------*/
+
+/**section-hotels------------------------------------------------------------------*/
 .section-hotels {
+  margin-bottom: -25px;
+}
+.hotels-container {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .section-hotels-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section-hotels-item {
+  width: 370px;
+  min-height: 440px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
 }
 .section-hotels-img {
 }
 .section-hotels-item-proposal {
+  padding: 45px 45px;
 }
 .section-hotels-price {
+  font-size: 16px;
 }
 .section-hotels-sum {
+  font-size: 18px;
+  font-weight: 600;
 }
 .hotel-name {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .hotel-location {
+  font-size: 16px;
+  display: block;
+  color: rgb(150, 150, 150);
 }
 .section-hotels-item-btn {
+  display: inline-block;
+  border: #cc9933 1px solid;
+  border-radius: 12px;
+  color: #cc9933;
+  padding: 15px 20px 15px 20px;
+  margin-top: 20px;
 }
-.section-hotels-item-last {
-}
-.section-hotels-img-last {
+.last-item {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url('/img/photo/hotelend.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .section-hotels-link {
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
 }
+.section-hotels-link-arrow {
+  margin-left: 10px;
+}
+/**section-hotels------------------------------------------------------------------*/
