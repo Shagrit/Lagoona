@@ -180,16 +180,20 @@ html {
   color: #cc9933;
 }
 .section-booking-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /*display: flex;
+  flex-direction: column;*/
+}
+.booking-right-img {
   background-image: url('/img/photo/apartment0.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center center;
+  background-size: contain;
   width: 595px;
+  height: 521px;
+  border-radius: 12px;
 }
 .booking-right-discription {
-  padding: 40px 40px;
+  padding: 40px 40px 40px 40px;
 }
 .section-booking-img {
 }
@@ -197,7 +201,7 @@ html {
   font-size: 66px;
   color: #fff;
   width: 320px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .section-booking-price {
   font-size: 35px;
