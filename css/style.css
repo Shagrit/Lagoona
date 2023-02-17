@@ -121,7 +121,11 @@ html {
   border-radius: 15px;
   font-size: 14px;
   padding: 15px 15px;
+  line-height: 1;
   background-color: #f1f1f1;
+  background-image: url('/img/icon/search.png');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 /**header------------------------------------------------------------------*/
 
@@ -180,8 +184,6 @@ html {
   color: #cc9933;
 }
 .section-booking-right {
-  /*display: flex;
-  flex-direction: column;*/
 }
 .booking-right-img {
   background-image: url('/img/photo/apartment0.png');
@@ -193,7 +195,9 @@ html {
   border-radius: 12px;
 }
 .booking-right-discription {
-  padding: 40px 40px 40px 40px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 240px;
 }
 .section-booking-img {
 }
@@ -202,6 +206,9 @@ html {
   color: #fff;
   width: 320px;
   font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 40px;
+  line-height: 58px;
 }
 .section-booking-price {
   font-size: 35px;
