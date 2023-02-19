@@ -18,6 +18,20 @@ img {
 p, a, li, small, strong, h2 {
   color: #333333;
 }
+.btn1 {
+  display: inline-block;
+  border: #cc9933 1px solid;
+  border-radius: 12px;
+  color: #cc9933;
+  padding: 15px 20px 15px 20px;
+}
+.btn2 {
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: #cc9933;
+  color: #fff;
+  border-radius: 12px;
+}
 @font-face {
   font-family: Muller;
   src: url('/fonts/MullerBold.woff');
@@ -147,11 +161,6 @@ html {
   padding: 25px 20px;
 }
 .section-booking-btn {
-  display: inline-block;
-  padding: 30px 30px;
-  background-color: #cc9933;
-  color: #fff;
-  border-radius: 12px;
   font-size: 16px;
   margin-right: 30px;
 }
@@ -329,11 +338,6 @@ html {
   color: rgb(150, 150, 150);
 }
 .section-hotels-item-btn {
-  display: inline-block;
-  border: #cc9933 1px solid;
-  border-radius: 12px;
-  color: #cc9933;
-  padding: 15px 20px 15px 20px;
   margin-top: 20px;
 }
 .last-item {
