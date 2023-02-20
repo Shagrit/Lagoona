@@ -360,3 +360,66 @@ html {
   margin-left: 10px;
 }
 /**section-hotels------------------------------------------------------------------*/
+
+/**section-contacts------------------------------------------------------------------*/
+.section-contacts {
+}
+.container {
+}
+.section-contacts-container {
+  display: flex;
+}
+.section-contacts-left {
+  width: 472px;
+}
+.section-contacts-list {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 44px 44px;
+}
+.section-contacts-item {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.section-contacts-item:not(:first-child) {
+  padding: 30px 0px;
+}
+.section-contacts-item:first-child {
+  padding-bottom: 30px;
+}
+.section-contacts-item-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #666666;
+}
+.section-contacts-item-discription {
+}
+.section-contacts-phone {
+}
+.section-contacts-item-link {
+}
+.section-contacts-email {
+}
+.section-contacts-link-discription {
+}
+.section-contacts-graphic {
+}
+.section-contacts-list-btn {
+  margin-top: 44px;
+}
+.section-contacts-right {
+  width: 340px;
+}
+.section-contacts-form {
+  display: flex;
+  flex-direction: column;
+}
+.section-contacts-input {
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 23px;
+  padding: 20px 20px;
+}
+.section-contacts-form-btn {
+}
+/**section-contacts------------------------------------------------------------------*/

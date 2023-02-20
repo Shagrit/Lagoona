@@ -553,66 +553,68 @@
           <h2 class="heading">
             Контакты
           </h2>
-          <div class="section-contacts-address">
-            <strong class="section-contacts-address-heading">
-              Адрес
-            </strong>
-            <address class="section-contacts-address-discription">
-              Москва, улица Юности, дом 5 строение 4, офис 2
-            </address>
-          </div>
-          <div class="section-contacts-phones">
-            <strong class="section-contacts-phones-heading">
-              Телефоны
-            </strong>
-            <a href="tel+74995356434" class="section-contacts-phones-link">
-              +7 (499) 535-64-34
-            </a>
-            <br>
-            <a href="tel+74950050544" class="section-contacts-phones-link">
-              +7 (495) 005-05-44
-            </a>
-          </div>
-          <div class="section-contacts-mail">
-            <strong class="section-contacts-mail-heading">
-              E-mail
-            </strong>
-            <span class="section-contacts-mail-discription">
-              <a href="mailto:example@example.com" class="section-contacts-mail-link">
-                lg.oona@mail.ru
-              </a>
-              по вопросам бронирования
-            </span>
-            <br>
-            <span class="section-contacts-mail-discription">
-              <a href="mailto:example@example.com" class="section-contacts-mail-link">
-                hotels.ln@mail.ru
-              </a>
-              по вопросам сотрудничества
-            </span>
-          </div>
-          <div class="section-contacts-graphic">
-            <strong class="section-contacts-graphic-heading">
-              График
-            </strong>
-            <span class="section-contacts-graphic-discription">
-              Понедельник - пятница, с 10:0 до 19:00
-            </span>
-          </div>
-          <div class="section-contacts-btn ">
-            <a href="" class="section-contacts-btn-link btn1">
+          <ul class="section-contacts-list">
+            <li class="section-contacts-item">
+              <strong class="section-contacts-item-heading">
+                Адрес
+              </strong>
+              <address class="section-contacts-item-discription">
+                Москва, улица Юности, дом 5 строение 4, офис 2
+              </address>
+            </li>
+            <li class="section-contacts-item">
+              <strong class="section-contacts-item-heading">
+                Телефоны
+              </strong>
+              <div class="section-contacts-phone">
+                <a href="tel+74995356434" class="section-contacts-item-link">
+                  +7 (499) 535-64-34
+                </a>
+                <a href="tel+74950050544" class="section-contacts-item-link">
+                  +7 (495) 005-05-44
+                </a>
+              </div>
+            </li>
+            <li class="section-contacts-item">
+              <strong class="section-contacts-item-heading">
+                E-mail
+              </strong>
+              <div class="section-contacts-email">
+                <span class="section-contacts-link-discription">
+                  <a href="mailto:example@example.com" class="section-contacts-item-link">
+                    lg.oona@mail.ru
+                  </a>по вопросам бронирования
+                </span>
+                <span class="section-contacts-link-discription">
+                  <a href="mailto:example@example.com" class="section-contacts-item-link">
+                    hotels.ln@mail.ru
+                  </a>по вопросам сотрудничества
+                </span>
+              </div>
+            </li>
+            <li class="section-contacts-item">
+              <strong class="section-contacts-item-heading">
+                График
+              </strong>
+              <span class="section-contacts-graphic">
+                Понедельник - пятница, с 10:0 до 19:00
+              </span>
+            </li>
+            <a href="" class="section-contacts-list-btn btn1">
               Построить маршрут
             </a>
-          </div>
+          </ul>
         </div>
         <div class="section-contacts-right">
           <h2 class="heading">
             Напишите нам
           </h2>
-          <form action="https://jsonplaceholder.typicode.com/post" autocomplete method="POST" class="section-contacts-form">
+          <form action="https://jsonplaceholder.typicode.com/post" autocomplete method="POST"
+            class="section-contacts-form">
             <input type="text" name="name" placeholder="Имя" required class="section-contacts-input">
             <input type="tel" name="phone" placeholder="+7" required class="section-contacts-input">
-            <textarea type="text" name="message" placeholder="Сообщение..." required class="section-contacts-input"></textarea>
+            <textarea type="text" name="message" placeholder="Сообщение..." required
+              class="section-contacts-input"></textarea>
             <button type="submit" class="section-contacts-form-btn btn2">
               Отправить
             </button>
