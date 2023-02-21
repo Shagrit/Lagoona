@@ -32,6 +32,9 @@ p, a, li, small, strong, h2 {
   color: #fff;
   border-radius: 12px;
 }
+textarea {
+  height: 110px;
+}
 @font-face {
   font-family: Muller;
   src: url('/fonts/MullerBold.woff');
@@ -362,12 +365,9 @@ html {
 /**section-hotels------------------------------------------------------------------*/
 
 /**section-contacts------------------------------------------------------------------*/
-.section-contacts {
-}
-.container {
-}
 .section-contacts-container {
   display: flex;
+  align-items: center;
 }
 .section-contacts-left {
   width: 472px;
@@ -379,6 +379,7 @@ html {
 }
 .section-contacts-item {
   display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #000;
 }
 .section-contacts-item:not(:first-child) {
@@ -393,33 +394,49 @@ html {
   color: #666666;
 }
 .section-contacts-item-discription {
-}
-.section-contacts-phone {
+  width: 230px;
+  line-height: 23px;
+  font-style: normal;
 }
 .section-contacts-item-link {
-}
-.section-contacts-email {
+  color: #cc9933;
 }
 .section-contacts-link-discription {
-}
-.section-contacts-graphic {
+  color: #a7a7a7;
 }
 .section-contacts-list-btn {
   margin-top: 44px;
+  padding: 30px 30px;
 }
 .section-contacts-right {
   width: 340px;
+  margin-left: 180px;
 }
 .section-contacts-form {
   display: flex;
   flex-direction: column;
 }
+.heading-form {
+  text-align: center;
+  margin-left: 0;
+}
 .section-contacts-input {
   border: none;
   border-radius: 12px;
   margin-bottom: 23px;
-  padding: 20px 20px;
+  padding: 30px 20px;
+}
+.section-contacts-input, input::placeholder {
+  color: #a7a7a7;
+}
+.section-contacts-input, textarea::placeholder {
+  color: #a7a7a7;
+}
+.section-contacts-input:nth-child(3) {
+  padding-top: 15px;
 }
 .section-contacts-form-btn {
+  border: none;
+  padding: 30px 30px;
 }
 /**section-contacts------------------------------------------------------------------*/
