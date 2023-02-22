@@ -29,6 +29,9 @@ p, a, li, small, strong, h2 {
 address {
   font-style: normal;
 }
+button {
+  cursor: pointer;
+}
 .btn1 {
   display: inline-block;
   border: #cc9933 1px solid;
