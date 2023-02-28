@@ -15,6 +15,15 @@ body, html {
 a {
   text-decoration: none;
 }
+a:focus {
+  outline: 1px solid var(--color);
+}
+input:focus {
+  outline: 1px solid var(--color);
+}
+textarea:focus {
+  outline: 1px solid var(--color);
+}
 ul {
   list-style: none;
   margin: 0;
@@ -34,17 +43,27 @@ button {
 }
 .btn1 {
   display: inline-block;
-  border: #cc9933 1px solid;
+  border: var(--color) 1px solid;
   border-radius: 12px;
-  color: #cc9933;
+  color: var(--color);
   padding: 15px 20px 15px 20px;
+  transition: buckground-color color .3s ease;
+}
+.btn1:hover {
+  background-color: var(--color);
+  color: #fff;
 }
 .btn2 {
   display: inline-block;
   padding: 30px 30px;
-  background-color: #cc9933;
+  background-color: var(--color);
   color: #fff;
   border-radius: 12px;
+  transition: color .2s ease;
+}
+.btn2:hover {
+  background-color: #ad7400;
+  transform: translateY(1px);
 }
 textarea {
   height: 110px;
@@ -84,7 +103,9 @@ textarea {
 html {
   font-family: Muller;
 }
-
+:root {
+  --color: #cc9933;
+}
 /**header------------------------------------------------------------------*/
 .container {
   max-width: 1200px;
@@ -110,10 +131,18 @@ html {
   font-size: 22px;
   font-weight: 600;
   color: #666666;
+  transition: color .2s ease;
+}
+.header-link-phone:hover {
+  color: var(--color);
 }
 .header-link-account {
   font-size: 16px;
-  color: #cc9933;
+  color: var(--color);
+  transition: color .2s ease;
+}
+.header-link-account:hover {
+  color: #333;
 }
 .header-bottom-container {
   display: flex;
@@ -134,6 +163,12 @@ html {
 }
 .nav-item:nth-child(6) {
   margin-right: 135px;
+}
+.nav-link {
+  transition: color .2s ease;
+}
+.nav-link:hover {
+  color: var(--color);
 }
 .nav-search {
   border: none;
@@ -186,9 +221,10 @@ html {
   font-size: 16px;
 }
 .section-booking-discription-color {
-  color: #cc9933;
+  color: var(--color);
 }
 .booking-right-img {
+  position: relative;
   background-image: url('/img/photo/apartment0.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -221,11 +257,28 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: #cc9933;
+  color: var(--color);
   margin-left: 40px;
+  transition: color .2s ease;
+}
+.section-booking-more::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.section-booking-more:hover {
+  color: #fff;
+}
+.section-booking-more:hover .arrow path {
+  stroke: #fff;
 }
 .arrow {
   margin-left: 5px;
+  transition: color .2s ease;
 }
 /**section-booking------------------------------------------------------------------*/
 
@@ -263,6 +316,7 @@ html {
   min-height: 325px;
   width: 570px;
   margin-bottom: 23px;
+  position: relative;
 }
 .section-services-bottom {
   padding: 30px 30px;
@@ -270,9 +324,25 @@ html {
 .section-services-link {
   display: flex;
   align-items: center;
-  color: #cc9933;
+  color: var(--color);
   font-size: 22px;
   font-weight: 500;
+  transition: color .2s ease;
+}
+.section-services-link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.section-services-link:hover .section-hotels-link-arrow path {
+  stroke: #000;
+}
+.section-services-link:hover {
+  color: #000;
 }
 .section-services-discription {
   line-height: 2;
@@ -358,6 +428,7 @@ html {
   margin-top: 20px;
 }
 .last-item {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -367,11 +438,27 @@ html {
   background-size: cover;
 }
 .section-hotels-link {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: #fff;
   font-size: 22px;
   display: flex;
   align-items: center;
+  transition: color .3s ease;
+}
+.section-hotels-link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.section-hotels-link:hover .section-hotels-link-arrow path {
+  stroke: #ffecc7;
+}
+.section-hotels-link:hover {
+  color: #ffecc7;
 }
 .section-hotels-link-arrow {
   margin-left: 10px;
@@ -413,7 +500,11 @@ html {
   font-style: normal;
 }
 .section-contacts-item-link {
-  color: #cc9933;
+  color: var(--color);
+  transition: color .3 ease;
+}
+.section-contacts-item-link:hover {
+  color: #ad7400;
 }
 .section-contacts-link-discription {
   color: #a7a7a7;
@@ -482,7 +573,11 @@ html {
 }
 .footer-link {
   display: block;
-  color: #cc9933;
+  color: var(--color);
+  transition: color .3s ease;
+}
+.footer-link:hover {
+  color: #ffecc7;
 }
 .footer-center {
   width: 360px;
