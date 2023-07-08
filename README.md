@@ -1,3 +1,3 @@
 # Lagoona
 Practice on the hotel booking website.
-Continuing to practice HTML and CSS
+Continuing to practice HTML and CSS.
