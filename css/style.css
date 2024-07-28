@@ -432,7 +432,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: end;
-  background-image: url('/img/photo/hotelend.png');
+  background-image: url('./img/photo/hotelend.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -602,17 +602,22 @@ html {
 }
 .tripadvisor {
   background-image: url('./img/icon/tripadvisor.png');
+  background-repeat: no-repeat;
 }
 .twitter {
   background-image: url('./img/icon/twitter.png');
+  background-repeat: no-repeat;
 }
 .facebook {
   background-image: url('./img/icon/facebook.png');
+  background-repeat: no-repeat;
 }
 .vk {
   background-image: url('./img/icon/social.png');
+  background-repeat: no-repeat;
 }
 .google-plus {
   background-image: url('./img/icon/google-plus-social-logotype.png');
+  background-repeat: no-repeat;
 }
 /**footer------------------------------------------------------------------*/
