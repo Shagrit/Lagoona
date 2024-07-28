@@ -225,7 +225,7 @@ html {
 }
 .booking-right-img {
   position: relative;
-  background-image: url('/img/photo/apartment0.png');
+  background-image: url('./img/photo/apartment0.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -560,7 +560,7 @@ html {
   border-radius: 12px;
   min-height: 335px;
   padding: 50px 50px;
-  background-image: url('/img/bg/san.png');
+  background-image: url('./img/bg/san.png');
   background-repeat: no-repeat;
   background-position: 750px bottom;
 }
@@ -601,18 +601,18 @@ html {
   margin-bottom: 20px;
 }
 .tripadvisor {
-  background-image: url('/img/icon/tripadvisor.png');
+  background-image: url('./img/icon/tripadvisor.png');
 }
 .twitter {
-  background-image: url('/img/icon/twitter.png');
+  background-image: url('./img/icon/twitter.png');
 }
 .facebook {
-  background-image: url('/img/icon/facebook.png');
+  background-image: url('./img/icon/facebook.png');
 }
 .vk {
-  background-image: url('/img/icon/social.png');
+  background-image: url('./img/icon/social.png');
 }
 .google-plus {
-  background-image: url('/img/icon/google-plus-social-logotype.png');
+  background-image: url('./img/icon/google-plus-social-logotype.png');
 }
 /**footer------------------------------------------------------------------*/
