@@ -179,15 +179,6 @@ html {
 .section-booking-discription-color {
   color: #cc9933;
 }
-.section-booking-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: url('./img/photo/apartment0.png');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  width: 595px;
-}
 .booking-right-discription {
   padding: 40px 40px;
 }
