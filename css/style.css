@@ -70,35 +70,35 @@ textarea {
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerBold.woff');
+  src: url('./fonts/MullerBold.woff');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerRegular.woff');
+  src: url('./fonts/MullerRegular.woff');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerBold.woff2');
+  src: url('./fonts/MullerBold.woff2');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerRegular.woff2');
+  src: url('./fonts/MullerRegular.woff2');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerLight.woff');
+  src: url('./fonts/MullerLight.woff');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerLight.woff2');
+  src: url('./fonts/MullerLight.woff2');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerMedium.woff');
+  src: url('./fonts/MullerMedium.woff');
 }
 @font-face {
   font-family: Muller;
-  src: url('/fonts/MullerMedium.woff2');
+  src: url('./fonts/MullerMedium.woff2');
 }
 html {
   font-family: Muller;
