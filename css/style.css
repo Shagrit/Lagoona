@@ -183,7 +183,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('/img/photo/apartment0.png');
+  background-image: url('./img/photo/apartment0.png');
   background-repeat: no-repeat;
   background-position: bottom right;
   width: 595px;
@@ -368,7 +368,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: end;
-  background-image: url('/img/photo/hotelend.png');
+  background-image: url('./img/photo/hotelend.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
